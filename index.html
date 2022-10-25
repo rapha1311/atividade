@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="loginForm">
+          <h2>Login</h2>
+          <p><label for="username">Email</label><input type="text" name="Email" id="Email" placeholder="Email" /></p>
+
+          <p><label for="senha">Senha</label>
+            <input type="password" name="password" id="typepass" placeholder="senha" minlength="6" maxlength="30" required /> 
+          
+          <input type="checkbox" onclick="Toogle()">
+          <b>Mostrar Senha</b>
+          
+          <script>
+            function Toogle(){
+                var temp = document.getElementById("typepass");
+                if(temp.type === "password") {
+                    temp.type = "text";
+                }
+                else{
+                    temp.type = "password";
+                }
+            }
+          </script>
+          
+          
+          <p><input type="submit" value="Login" class="button" /></p>
+
+        </form>
+      </div>
+</body>
+</html>

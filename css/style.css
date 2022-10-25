@@ -1,0 +1,52 @@
+body
+{
+  background: rgb(22, 255, 119);
+  font-family: 'Ubuntu', sans-serif;
+}
+.container
+{
+  width: 70%;
+  margin: 4rem auto;
+}
+
+#loginForm
+{
+  background: #FFF;
+  padding: 4rem;
+}
+
+#loginForm h2
+{
+  text-align: center;
+}
+
+#loginForm label
+{
+  display: block;
+}
+
+#loginForm input
+{
+  padding: 8px;
+}
+#loginForm input[type=text]
+{
+  width: 70%;
+}
+#loginForm #password
+{
+  width: 70%;
+}
+
+.button
+{
+  background: rgb(255, 255, 255);
+  border: 1px solid #458;
+  cursor: pointer;
+  padding: 6px !important;
+}
+
+.button:hover
+{
+  background: #ddd;
+}
